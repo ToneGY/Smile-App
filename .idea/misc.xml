@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Blood/thirdyear_autumn/Android/Smile/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.136" />
+        <entry key="..\:/Blood/thirdyear_autumn/Android/Smile/app/src/main/res/drawable/back_bg.xml" value="0.1" />
+        <entry key="..\:/Blood/thirdyear_autumn/Android/Smile/app/src/main/res/drawable/card_view_selector.xml" value="0.1465" />
+        <entry key="..\:/Blood/thirdyear_autumn/Android/Smile/app/src/main/res/drawable/content_border.xml" value="0.136" />
+        <entry key="..\:/Blood/thirdyear_autumn/Android/Smile/app/src/main/res/drawable/content_border_done.xml" value="0.136" />
+        <entry key="..\:/Blood/thirdyear_autumn/Android/Smile/app/src/main/res/drawable/content_border_easy.xml" value="0.136" />
+        <entry key="..\:/Blood/thirdyear_autumn/Android/Smile/app/src/main/res/drawable/content_border_important.xml" value="0.136" />
+        <entry key="..\:/Blood/thirdyear_autumn/Android/Smile/app/src/main/res/drawable/content_border_null.xml" value="0.1" />
+        <entry key="..\:/Blood/thirdyear_autumn/Android/Smile/app/src/main/res/drawable/content_border_veryeasy.xml" value="0.136" />
+        <entry key="..\:/Blood/thirdyear_autumn/Android/Smile/app/src/main/res/drawable/content_border_veryimportant.xml" value="0.136" />
+        <entry key="..\:/Blood/thirdyear_autumn/Android/Smile/app/src/main/res/drawable/content_broder_important.xml" value="0.136" />
+        <entry key="..\:/Blood/thirdyear_autumn/Android/Smile/app/src/main/res/drawable/fade_easy.xml" value="0.1425" />
+        <entry key="..\:/Blood/thirdyear_autumn/Android/Smile/app/src/main/res/drawable/fade_important.xml" value="0.1425" />
+        <entry key="..\:/Blood/thirdyear_autumn/Android/Smile/app/src/main/res/drawable/fade_very_easy.xml" value="0.1425" />
+        <entry key="..\:/Blood/thirdyear_autumn/Android/Smile/app/src/main/res/drawable/fade_very_important.xml" value="0.1425" />
+        <entry key="..\:/Blood/thirdyear_autumn/Android/Smile/app/src/main/res/drawable/ic_launcher_background.xml" value="0.136" />
+        <entry key="..\:/Blood/thirdyear_autumn/Android/Smile/app/src/main/res/drawable/lower_sliderbar_border.xml" value="0.136" />
+        <entry key="..\:/Blood/thirdyear_autumn/Android/Smile/app/src/main/res/drawable/menu_pop_bg.xml" value="0.1" />
+        <entry key="..\:/Blood/thirdyear_autumn/Android/Smile/app/src/main/res/drawable/more_select.xml" value="0.171" />
+        <entry key="..\:/Blood/thirdyear_autumn/Android/Smile/app/src/main/res/drawable/new_border.xml" value="0.1" />
+        <entry key="..\:/Blood/thirdyear_autumn/Android/Smile/app/src/main/res/drawable/note.xml" value="0.1505" />
+        <entry key="..\:/Blood/thirdyear_autumn/Android/Smile/app/src/main/res/drawable/note_border_button.xml" value="0.1" />
+        <entry key="..\:/Blood/thirdyear_autumn/Android/Smile/app/src/main/res/drawable/note_detail_click_selector.xml" value="0.1" />
+        <entry key="..\:/Blood/thirdyear_autumn/Android/Smile/app/src/main/res/drawable/note_item_back.xml" value="0.1" />
+        <entry key="..\:/Blood/thirdyear_autumn/Android/Smile/app/src/main/res/drawable/note_move_alert.xml" value="0.1115" />
+        <entry key="..\:/Blood/thirdyear_autumn/Android/Smile/app/src/main/res/drawable/select_border.xml" value="0.1" />
+        <entry key="..\:/Blood/thirdyear_autumn/Android/Smile/app/src/main/res/drawable/select_easy.xml" value="0.1" />
+        <entry key="..\:/Blood/thirdyear_autumn/Android/Smile/app/src/main/res/drawable/select_important.xml" value="0.1" />
+        <entry key="..\:/Blood/thirdyear_autumn/Android/Smile/app/src/main/res/drawable/select_veryeasy.xml" value="0.1" />
+        <entry key="..\:/Blood/thirdyear_autumn/Android/Smile/app/src/main/res/drawable/select_veryimportant.xml" value="0.1" />
+        <entry key="..\:/Blood/thirdyear_autumn/Android/Smile/app/src/main/res/drawable/shape_square.xml" value="0.1265" />
+        <entry key="..\:/Blood/thirdyear_autumn/Android/Smile/app/src/main/res/drawable/shedule_select.xml" value="0.1505" />
+        <entry key="..\:/Blood/thirdyear_autumn/Android/Smile/app/src/main/res/drawable/todo_select.xml" value="0.172" />
+        <entry key="..\:/Blood/thirdyear_autumn/Android/Smile/app/src/main/res/drawable/white_border.xml" value="0.1" />
+        <entry key="..\:/Blood/thirdyear_autumn/Android/Smile/app/src/main/res/drawable/white_radius.xml" value="0.1" />
+        <entry key="..\:/Blood/thirdyear_autumn/Android/Smile/app/src/main/res/layout/NotePaperFragment.xml" value="0.165625" />
+        <entry key="..\:/Blood/thirdyear_autumn/Android/Smile/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Blood/thirdyear_autumn/Android/Smile/app/src/main/res/layout/char_view.xml" value="0.2" />
+        <entry key="..\:/Blood/thirdyear_autumn/Android/Smile/app/src/main/res/layout/course_activity.xml" value="0.14322916666666666" />
+        <entry key="..\:/Blood/thirdyear_autumn/Android/Smile/app/src/main/res/layout/course_bar.xml" value="0.14322916666666666" />
+        <entry key="..\:/Blood/thirdyear_autumn/Android/Smile/app/src/main/res/layout/course_bottom_bar.xml" value="0.15989583333333332" />
+        <entry key="..\:/Blood/thirdyear_autumn/Android/Smile/app/src/main/res/layout/course_file_item.xml" value="0.176" />
+        <entry key="..\:/Blood/thirdyear_autumn/Android/Smile/app/src/main/res/layout/eleanring_login.xml" value="0.2" />
+        <entry key="..\:/Blood/thirdyear_autumn/Android/Smile/app/src/main/res/layout/footer_view.xml" value="0.1171875" />
+        <entry key="..\:/Blood/thirdyear_autumn/Android/Smile/app/src/main/res/layout/group_add.xml" value="0.2" />
+        <entry key="..\:/Blood/thirdyear_autumn/Android/Smile/app/src/main/res/layout/group_add_account.xml" value="0.264" />
+        <entry key="..\:/Blood/thirdyear_autumn/Android/Smile/app/src/main/res/layout/group_fra_action_bar.xml" value="0.18958333333333333" />
+        <entry key="..\:/Blood/thirdyear_autumn/Android/Smile/app/src/main/res/layout/group_fra_main.xml" value="0.19895833333333332" />
+        <entry key="..\:/Blood/thirdyear_autumn/Android/Smile/app/src/main/res/layout/group_fra_member_item.xml" value="0.4" />
+        <entry key="..\:/Blood/thirdyear_autumn/Android/Smile/app/src/main/res/layout/group_manager.xml" value="0.14270833333333333" />
+        <entry key="..\:/Blood/thirdyear_autumn/Android/Smile/app/src/main/res/layout/group_manager_bar.xml" value="0.14166666666666666" />
+        <entry key="..\:/Blood/thirdyear_autumn/Android/Smile/app/src/main/res/layout/group_manger_item.xml" value="0.2" />
+        <entry key="..\:/Blood/thirdyear_autumn/Android/Smile/app/src/main/res/layout/group_select_group.xml" value="0.23489583333333333" />
+        <entry key="..\:/Blood/thirdyear_autumn/Android/Smile/app/src/main/res/layout/group_select_items.xml" value="0.21354166666666666" />
+        <entry key="..\:/Blood/thirdyear_autumn/Android/Smile/app/src/main/res/layout/hw_fragment.xml" value="0.133203125" />
+        <entry key="..\:/Blood/thirdyear_autumn/Android/Smile/app/src/main/res/layout/layout_lower_siderbar.xml" value="0.4" />
+        <entry key="..\:/Blood/thirdyear_autumn/Android/Smile/app/src/main/res/layout/layout_mark_view.xml" value="0.264" />
+        <entry key="..\:/Blood/thirdyear_autumn/Android/Smile/app/src/main/res/layout/line_chart.xml" value="0.2203125" />
+        <entry key="..\:/Blood/thirdyear_autumn/Android/Smile/app/src/main/res/layout/loading.xml" value="0.1" />
+        <entry key="..\:/Blood/thirdyear_autumn/Android/Smile/app/src/main/res/layout/mark_down_viewer.xml" value="0.14166666666666666" />
+        <entry key="..\:/Blood/thirdyear_autumn/Android/Smile/app/src/main/res/layout/more_action_bar.xml" value="0.152" />
+        <entry key="..\:/Blood/thirdyear_autumn/Android/Smile/app/src/main/res/layout/more_login.xml" value="0.21927083333333333" />
+        <entry key="..\:/Blood/thirdyear_autumn/Android/Smile/app/src/main/res/layout/more_main.xml" value="0.2" />
+        <entry key="..\:/Blood/thirdyear_autumn/Android/Smile/app/src/main/res/layout/more_register.xml" value="0.2203125" />
+        <entry key="..\:/Blood/thirdyear_autumn/Android/Smile/app/src/main/res/layout/my_footer_view.xml" value="0.15989583333333332" />
+        <entry key="..\:/Blood/thirdyear_autumn/Android/Smile/app/src/main/res/layout/note_action_bar.xml" value="0.2" />
+        <entry key="..\:/Blood/thirdyear_autumn/Android/Smile/app/src/main/res/layout/note_course_fragment.xml" value="0.1" />
+        <entry key="..\:/Blood/thirdyear_autumn/Android/Smile/app/src/main/res/layout/note_course_item.xml" value="0.264" />
+        <entry key="..\:/Blood/thirdyear_autumn/Android/Smile/app/src/main/res/layout/note_detail_down_load.xml" value="0.176" />
+        <entry key="..\:/Blood/thirdyear_autumn/Android/Smile/app/src/main/res/layout/note_detail_file_item.xml" value="0.2" />
+        <entry key="..\:/Blood/thirdyear_autumn/Android/Smile/app/src/main/res/layout/note_file_empty_view.xml" value="0.1359375" />
+        <entry key="..\:/Blood/thirdyear_autumn/Android/Smile/app/src/main/res/layout/note_file_fragment.xml" value="0.19583333333333333" />
+        <entry key="..\:/Blood/thirdyear_autumn/Android/Smile/app/src/main/res/layout/note_file_item.xml" value="0.2" />
+        <entry key="..\:/Blood/thirdyear_autumn/Android/Smile/app/src/main/res/layout/note_file_menu.xml" value="0.159375" />
+        <entry key="..\:/Blood/thirdyear_autumn/Android/Smile/app/src/main/res/layout/note_file_moveto_alert.xml" value="0.264" />
+        <entry key="..\:/Blood/thirdyear_autumn/Android/Smile/app/src/main/res/layout/note_file_onselect_menu.xml" value="0.2" />
+        <entry key="..\:/Blood/thirdyear_autumn/Android/Smile/app/src/main/res/layout/note_file_rename_alert.xml" value="0.264" />
+        <entry key="..\:/Blood/thirdyear_autumn/Android/Smile/app/src/main/res/layout/note_folder_menu.xml" value="0.17395833333333333" />
+        <entry key="..\:/Blood/thirdyear_autumn/Android/Smile/app/src/main/res/layout/note_hw_detail.xml" value="0.11714659685863875" />
+        <entry key="..\:/Blood/thirdyear_autumn/Android/Smile/app/src/main/res/layout/note_hw_fragment.xml" value="0.15625" />
+        <entry key="..\:/Blood/thirdyear_autumn/Android/Smile/app/src/main/res/layout/note_layoutItem.xml" value="0.1" />
+        <entry key="..\:/Blood/thirdyear_autumn/Android/Smile/app/src/main/res/layout/note_main.xml" value="0.2" />
+        <entry key="..\:/Blood/thirdyear_autumn/Android/Smile/app/src/main/res/layout/note_main_list_child.xml" value="0.1" />
+        <entry key="..\:/Blood/thirdyear_autumn/Android/Smile/app/src/main/res/layout/note_main_list_header.xml" value="0.12871287128712872" />
+        <entry key="..\:/Blood/thirdyear_autumn/Android/Smile/app/src/main/res/layout/note_paper_fragment.xml" value="0.11197916666666667" />
+        <entry key="..\:/Blood/thirdyear_autumn/Android/Smile/app/src/main/res/layout/note_user_memu.xml" value="0.2" />
+        <entry key="..\:/Blood/thirdyear_autumn/Android/Smile/app/src/main/res/layout/note_user_menu.xml" value="0.1" />
+        <entry key="..\:/Blood/thirdyear_autumn/Android/Smile/app/src/main/res/layout/note_web_view.xml" value="0.15364583333333334" />
+        <entry key="..\:/Blood/thirdyear_autumn/Android/Smile/app/src/main/res/layout/pdf_viewer.xml" value="0.13645833333333332" />
+        <entry key="..\:/Blood/thirdyear_autumn/Android/Smile/app/src/main/res/layout/ppt_viewer.xml" value="0.23489583333333333" />
+        <entry key="..\:/Blood/thirdyear_autumn/Android/Smile/app/src/main/res/layout/pull_to_refresh_header.xml" value="0.176" />
+        <entry key="..\:/Blood/thirdyear_autumn/Android/Smile/app/src/main/res/layout/schedule_main.xml" value="0.2" />
+        <entry key="..\:/Blood/thirdyear_autumn/Android/Smile/app/src/main/res/layout/test.xml" value="0.21927083333333333" />
+        <entry key="..\:/Blood/thirdyear_autumn/Android/Smile/app/src/main/res/layout/todo_action_bar.xml" value="0.21927083333333333" />
+        <entry key="..\:/Blood/thirdyear_autumn/Android/Smile/app/src/main/res/layout/todo_content_detail.xml" value="0.176" />
+        <entry key="..\:/Blood/thirdyear_autumn/Android/Smile/app/src/main/res/layout/todo_content_item.xml" value="0.1" />
+        <entry key="..\:/Blood/thirdyear_autumn/Android/Smile/app/src/main/res/layout/todo_content_list.xml" value="0.21927083333333333" />
+        <entry key="..\:/Blood/thirdyear_autumn/Android/Smile/app/src/main/res/layout/todo_main.xml" value="0.2" />
+        <entry key="..\:/Blood/thirdyear_autumn/Android/Smile/app/src/main/res/menu/note_file_menu.xml" value="0.15625" />
+        <entry key="..\:/Blood/thirdyear_autumn/Android/Smile/app/src/main/res/xml/filepaths.xml" value="0.14791666666666667" />
+        <entry key="..\:/Blood/thirdyear_autumn/Android/Smile/app/src/main/res/xml/network_security_config.xml" value="0.1" />
+        <entry key="..\:/Blood/thirdyear_autumn/Android/Smile/lib_fileviewer/src/main/res/layout/document_activity.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
