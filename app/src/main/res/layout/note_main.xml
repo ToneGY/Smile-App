@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#66828E">
+    <include android:id="@+id/main_note_action_bar"
+        layout="@layout/note_action_bar"
+        android:layout_height="60dp"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"/>
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tabLayout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:tabTextAppearance="@style/TabTextSize"
+        app:tabGravity="fill"
+        app:tabTextColor="@color/black"
+        app:tabSelectedTextColor="@color/white"
+        app:tabRippleColor="#E3E7EA" />
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/note_view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:background="#CDFFFFFF"/>
+
+
+</LinearLayout>

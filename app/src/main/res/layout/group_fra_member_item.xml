@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="20dp"
+    android:layout_marginTop="4dp"
+    android:orientation="horizontal"
+    android:background="@color/white">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:maxHeight="200dp"
+        android:text="name"
+        android:textSize="14sp"
+        android:gravity="bottom"
+        android:layout_marginStart="20dp"
+        android:lines="1"
+        android:ellipsize="end"
+        android:id="@+id/group_fra_member_item_name"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+        android:layout_marginStart="20dp"
+        android:textSize="11sp"
+        android:text="1325932"
+        android:lines="1"
+        android:ellipsize="end"
+        android:id="@+id/group_fra_member_item_account"/>
+</LinearLayout>

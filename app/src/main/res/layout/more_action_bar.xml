@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@string/actionbar_height"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/todo_actionbar"
+    android:background="@color/white">
+
+    <com.makeramen.roundedimageview.RoundedImageView
+        android:id="@+id/more_user_image"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="25dp"
+        android:background="@color/white"
+        android:scaleType="fitXY"
+        android:src="@drawable/note_user_image"
+        app:riv_border_color="@color/colorAccent"
+        app:riv_border_width="2dip"
+        app:riv_corner_radius="10dip"
+        app:riv_mutate_background="true"
+        app:riv_oval="false"
+        app:riv_tile_mode="clamp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/more_user_image"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="30dp"
+        android:id="@+id/more_hav_login"
+        android:visibility="gone">
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/zhankucangyuyangti_w01"
+            android:text="name"
+            android:gravity="center_vertical|left"
+            android:textSize="25sp"
+            android:id="@+id/more_user_name"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/more_user_image"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="10dp"
+        android:id="@+id/more_un_login"
+        android:gravity="center_horizontal"
+        android:visibility="visible">
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/zhankucangyuyangti_w01"
+            android:text="登录"
+            android:gravity="center_vertical|center_horizontal"
+            android:textSize="25sp"
+            android:padding="5dp"
+            android:id="@+id/more_login"
+            android:background="@drawable/new_border"/>
+        <TextView
+            android:layout_marginStart="20dp"
+            android:padding="5dp"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/zhankucangyuyangti_w01"
+            android:text="注册"
+            android:gravity="center_vertical|center_horizontal"
+            android:textSize="25sp"
+            android:id="@+id/more_register"
+            android:background="@drawable/new_border"/>
+    </LinearLayout>
+
+
+
+
+
+</RelativeLayout>

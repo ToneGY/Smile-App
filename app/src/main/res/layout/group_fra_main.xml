@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/group_frag_un_login"
+        android:background="#BCDEDDDD"
+        android:visibility="gone">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="请先在"
+                android:textSize="25sp"/>
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/more"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="登录后使用此功能"
+                android:textSize="25sp"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/molandi_s5">
+        <include
+            layout="@layout/group_fra_action_bar"
+            android:layout_marginTop="40dp"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:id="@+id/group_fra_member_expandable_button">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="20dp"
+                android:text="组成员"
+                android:textSize="19sp"
+                android:layout_centerVertical="true"/>
+
+            <ImageView
+                android:id="@+id/group_fra_memeber_image"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="20dp"
+                android:src="@drawable/group_arrow" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <net.cachapa.expandablelayout.ExpandableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:el_duration="400"
+            app:el_expanded="true"
+            android:background="#ABFFFFFF"
+            android:id="@+id/group_fra_expandable">
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:id="@+id/group_fra_member_recycler"
+                android:layout_marginBottom="10dp"
+                android:background="@color/transparent"/>
+        </net.cachapa.expandablelayout.ExpandableLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/group_fra_item_recycler"
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>

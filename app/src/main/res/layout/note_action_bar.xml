@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@string/actionbar_height"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/todo_actionbar">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="10dp">
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/mossionregular_eajae"
+            android:scaleX="1.2"
+            android:text="Elearning"
+            android:gravity="center_vertical|center_horizontal"
+            android:textSize="30sp"/>
+    </RelativeLayout>
+
+
+    <com.makeramen.roundedimageview.RoundedImageView
+        android:id="@+id/user_image"
+        android:layout_centerVertical="true"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="25dp"
+        android:background="@color/white"
+        android:scaleType="fitXY"
+        android:src="@drawable/note_user_image"
+        app:riv_border_color="@color/colorAccent"
+        app:riv_border_width="2dip"
+        app:riv_corner_radius="50dip"
+        app:riv_mutate_background="true"
+        app:riv_oval="true"
+        app:riv_tile_mode="repeat" />
+
+
+</RelativeLayout>

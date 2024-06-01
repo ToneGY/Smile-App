@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.smile.adapter.expandableLayout.ExpandableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:ripple="http://schemas.android.com/tools"
+    android:id="@+id/note_expand_item"
+    app:expWithParentScroll="true"
+    app:expDuration="300"
+    app:expExpandScrollTogether="true"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        android:background="@drawable/note_item_back">
+        <TextView
+            android:id="@+id/note_child"
+            android:padding="10dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+        <TextView
+            android:id="@+id/note_state"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginEnd="5dp"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/content_border_veryimportant"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginHorizontal="20dp"
+        android:background="#33CFE3F1">
+
+        <LinearLayout
+            android:id="@+id/note_content_time"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_alignParentTop="true"
+            android:orientation="horizontal"
+            android:paddingTop="3dp"
+            android:paddingBottom="4dp"
+            android:layout_marginHorizontal="4dp">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="1dp"
+                android:layout_weight="2"
+                android:src="@drawable/conten_item_begin" />
+
+            <TextView
+                android:id="@+id/note_item_begintime"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginStart="5dp"
+                android:layout_weight="13"
+                android:autoSizeTextType="uniform"
+                android:gravity="center_vertical"
+                android:text="2022 03-08 15:30" />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="20dp"
+                android:layout_weight="2"
+                android:scaleType="centerInside"
+                android:src="@drawable/content_item_end" />
+
+            <TextView
+                android:id="@+id/note_item_endtime"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="20dp"
+                android:layout_weight="13"
+                android:autoSizeTextType="uniform"
+                android:gravity="center_vertical"
+                android:text="2022 04-09 12:38" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginHorizontal="4dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="提交状态："
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:gravity="center_vertical"/>
+            <TextView
+                android:id="@+id/enpand_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <com.example.smile.others.RippleView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            ripple:rv_type="rectangle"
+            ripple:rv_zoom="true">
+            <Button
+                android:id="@+id/note_item_button"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginHorizontal="35dp"
+                android:background="@drawable/note_border_button"
+                android:text="查看详情"
+                android:textColor="@color/white"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="5dp"/>
+        </com.example.smile.others.RippleView>
+
+    </LinearLayout>
+</com.example.smile.adapter.expandableLayout.ExpandableLayout>

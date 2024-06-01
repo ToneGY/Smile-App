@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@string/actionbar_height"
+    android:id="@+id/todo_actionbar">
+
+   <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       android:layout_centerVertical="true"
+       android:layout_marginStart="20dp">
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="ASD"
+           android:textSize="30sp"
+           android:id="@+id/group_frag_cur_name"/>
+       <TextView
+           android:layout_marginStart="10dp"
+           android:layout_gravity="bottom"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="id："
+           android:textSize="14sp"
+           android:id="@+id/group_frag_cur_id"/>
+   </LinearLayout>
+
+    <ImageView
+        android:id="@+id/group_fra_actionbar_change"
+        android:layout_width="25dp"
+        android:layout_height="24dp"
+        android:layout_toStartOf="@id/group_fra_actionbar_add"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="25dp"
+        android:src="@drawable/group_change"
+        android:visibility="visible" />
+    <ImageView
+        android:id="@+id/group_fra_actionbar_add"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="25dp"
+        android:src="@drawable/todo_actionbar_add"
+        android:visibility="visible" />
+    <ImageView
+        android:id="@+id/group_fra_actionbar_delete"
+        android:layout_width="25dp"
+        android:layout_height="24dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="25dp"
+        android:src="@drawable/todo_delete"
+        android:visibility="invisible" />
+
+
+</RelativeLayout>

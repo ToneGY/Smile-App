@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <include android:id="@+id/course_bar"
+        layout="@layout/course_bar"
+        android:layout_marginTop="30dp"
+        android:layout_height="40dp"
+        android:layout_width="match_parent"/>
+
+    <LinearLayout
+        android:id="@+id/layout_path"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/course_file_path"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="8dp"
+            android:layout_weight="1"
+            android:ellipsize="middle"
+            android:gravity="left|center"
+            android:singleLine="true"
+            android:textSize="16sp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="20dp"/>
+        <RelativeLayout
+
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center">
+            <ImageView
+                android:id="@+id/course_file_back"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/note_file_return"
+                android:clickable="true"
+                android:drawablePadding="4dp"
+                android:gravity="center"
+                android:layout_marginEnd="8dp"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/course_recylerview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+<!--        <include-->
+<!--            android:id="@+id/course_empty_view"-->
+<!--            layout="@layout/note_file_empty_view"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"/>-->
+    </RelativeLayout>
+
+</LinearLayout>

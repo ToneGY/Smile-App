@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@string/actionbar_height"
+    android:id="@+id/todo_actionbar">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="10dp">
+        <TextClock
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="2022年"
+            android:textSize="15sp"
+            android:id="@+id/note_actionbar_year"
+            android:visibility="invisible"/>
+
+        <TextClock
+            android:id="@+id/note_actionbar_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif-light"
+            android:text="10月10日"
+            android:textSize="25sp" />
+
+        <TextClock
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="18:42"
+            android:textSize="15sp"
+            android:layout_below="@id/note_actionbar_date"
+            android:id="@+id/note_actionbar_time"/>
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:src="@drawable/todo_actionbar_change"
+        android:paddingTop="7dp"
+        android:paddingBottom="2dp"
+        android:layout_marginEnd="10dp"
+        android:layout_toLeftOf="@id/todo_actionbar_add"
+        android:layout_centerVertical="true"
+        android:id="@+id/todo_actionbar_change"/>
+
+    <ImageView
+        android:id="@+id/todo_actionbar_add"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="20dp"
+        android:src="@drawable/todo_actionbar_add" />
+
+    <ImageView
+        android:id="@+id/todo_actionbar_delete"
+        android:layout_width="25dp"
+        android:layout_height="24dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="25dp"
+        android:src="@drawable/todo_delete"
+        android:visibility="invisible" />
+
+
+</RelativeLayout>

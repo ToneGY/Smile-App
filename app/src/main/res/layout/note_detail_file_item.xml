@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="35dp"
+    android:orientation="horizontal"
+    android:background="@color/white">
+
+    <ImageView
+        android:id="@+id/note_detail_file_type"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center_vertical"
+        android:src="@drawable/file_icon"/>
+
+    <TextView
+        android:id="@+id/note_detail_file_name"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:layout_marginStart="20dp"
+        android:text="文件"
+        android:background="@color/white"
+        android:textColor="@drawable/note_detail_click_selector"
+        android:clickable="true"
+        android:ellipsize="end"
+        android:lines="1"/>
+
+</LinearLayout>

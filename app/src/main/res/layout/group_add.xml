@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="140dp"
+    android:background="@drawable/white_border"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="@color/lfile_gray">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/note_user_image"
+                android:layout_marginEnd="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="添加小组"
+                android:gravity="center_vertical"
+                android:textSize="15sp"
+                android:fontFamily="sans-serif"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="小组名称:"
+            android:gravity="left"
+            android:textStyle="bold"
+            android:layout_marginStart="50dp"/>
+        <EditText
+            android:layout_marginStart="10dp"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/group_add"
+            android:ellipsize="start"
+            android:gravity="left|center"
+            android:singleLine="true"
+            android:textSize="15sp"
+            android:hint="输入要添加的小组名称"
+            android:textColorHint="@color/lfile_gray"
+            android:textColor="@color/black"
+            android:background="#00000000"/>
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:layout_marginTop="10dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="8dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/group_add_confirm"
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/note_move_alert"
+                android:text="确定" />
+
+            <Button
+                android:id="@+id/group_add_cancel"
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="50dp"
+                android:background="@drawable/note_move_alert"
+                android:text="取消" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

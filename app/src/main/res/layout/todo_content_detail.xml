@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/grid_blue">
+
+    <RelativeLayout
+        android:id="@+id/todo_content_detail_actionba"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/action_bar_layout_height">
+
+        <ImageView
+            android:id="@+id/content_detail_concile"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="20dp"
+            android:src="@drawable/content_detail_concile" />
+
+        <ImageView
+            android:id="@+id/content_detail_confirm"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="25dp"
+            android:src="@drawable/content_detail_confirm" />
+
+        <TextView
+            android:id="@+id/todo_content_detail_actionbar_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="待办事项"
+            android:textSize="25sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/todo_content_detail_actionba">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@drawable/content_border_done"
+            android:layout_marginHorizontal="30dp"
+            android:hint="输入标题"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:textColorHint="#FFFFFF"
+            android:gravity="center"
+            android:id="@+id/todo_content_detail_title"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="10dp"
+                android:text="紧急程度"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginVertical="10dp"
+                android:layout_marginEnd="20dp"
+                android:paddingHorizontal="10dp"
+                android:background="@drawable/content_border_done"
+                android:text="已逾期"
+                android:gravity="center"
+                android:visibility="invisible"
+                android:id="@+id/todo_content_detail_replace"/>
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginVertical="10dp"
+                android:layout_marginEnd="20dp"
+                android:paddingHorizontal="10dp"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:background="@drawable/content_border_done"
+                android:id="@+id/todo_content_detail_nice_select">
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingHorizontal="5dp"
+                        android:button="@null"
+                        android:background="@drawable/select_veryeasy"
+                        android:text="轻松"
+                        android:id="@+id/todo_content_detail_nice_select_veryeasy"/>
+                    <ImageView
+                        android:layout_width="1dp"
+                        android:layout_height="15dp"
+                        android:layout_gravity="center"
+                        android:background="@color/white"/>
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingHorizontal="5dp"
+                        android:button="@null"
+                        android:background="@drawable/select_easy"
+                        android:text="较轻松"
+                        android:id="@+id/todo_content_detail_nice_select_easy"/>
+                    <ImageView
+                        android:layout_width="1dp"
+                        android:layout_height="15dp"
+                        android:layout_gravity="center"
+                        android:background="@color/white"/>
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingHorizontal="5dp"
+                        android:button="@null"
+                        android:background="@drawable/select_important"
+                        android:text="较紧急"
+                        android:id="@+id/todo_content_detail_nice_select_important"/>
+                    <ImageView
+                        android:layout_width="1dp"
+                        android:layout_height="15dp"
+                        android:layout_gravity="center"
+                        android:background="@color/white"/>
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingHorizontal="5dp"
+                        android:button="@null"
+                        android:background="@drawable/select_veryimportant"
+                        android:text="紧急"
+                        android:id="@+id/todo_content_detail_nice_select_veryimportant"/>
+
+            </RadioGroup>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="10dp"
+                android:text="结束时间"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="今天 21:00"
+                android:textSize="15sp"
+                android:textColor="@color/content_time_color"
+                android:background="@drawable/white_border"
+                android:layout_marginEnd="20dp"
+                android:paddingHorizontal="20dp"
+                android:paddingVertical="10dp"
+                android:layout_alignParentEnd="true"
+                android:id="@+id/todo_content_time_select"/>
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="具体事项:"
+            android:layout_marginStart="10dp"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:layout_marginTop="10dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginBottom="40dp"
+            android:layout_marginTop="20dp"
+            android:padding="20dp"
+            android:background="@drawable/white_border"
+            android:textColor="@color/black"
+            android:gravity="left|top"
+            android:id="@+id/todo_content_detail_content"/>
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
