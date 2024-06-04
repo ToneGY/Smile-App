@@ -1,8 +1,4 @@
-# Smile APP实验报告
-
-> 王耕宇 17307110209
-
-[toc]
+# Smile APP
 
 ## 一、UI风格
 
@@ -60,29 +56,32 @@ APP使用了`PopupWindow`、`Handler`、`Fragment`、`Service`、` BroadcastRece
 
 主界面主要借助`RecyclerView`实现列表的展示，同时我们使用`clock`组件在左上角展示了当前时间。每个列表项实现了点击和长按两种操作，点击进入事项详情，长按进行多选删除。如果点击右上角的加号，则进入添加事项界面。点击另一个按钮，进入数据可视化界面。
 
-<img src="C:\Users\98157\AppData\Local\Temp\WeChat Files\f06a76fe3c5f69de55cf453f3985143.jpg" alt="f06a76fe3c5f69de55cf453f3985143" style="zoom: 16%;" />
+![image](https://github.com/ToneGY/Smile-App/assets/70756004/70d28727-ec1a-488d-a2b7-253b26058815)
 
 #### 增删改查
 
 在个人待办方面，这款APP实现了基本的增删改查功能。在待办内容上，APP实现了时间的滑动列表选取功能；同时，APP设置了四个事项重要等级，每个等级对应了不同的颜色，选取相应的颜色会直接映射到标题上。删除操作采用长按多项选择的方法。
+![image](https://github.com/ToneGY/Smile-App/assets/70756004/15b40c59-d630-49f7-a6df-39fa9c5fa990)
 
-<img src="C:\Users\98157\AppData\Local\Temp\WeChat Files\efa7e4a6afe6424a0aa41855a9d512a.jpg" alt="efa7e4a6afe6424a0aa41855a9d512a" style="zoom:16%;" />
 
-<img src="C:\Users\98157\AppData\Local\Temp\WeChat Files\32d2a893de7dd97e9b241ebb0d93ca0.jpg" alt="32d2a893de7dd97e9b241ebb0d93ca0" style="zoom:16%;" />
+![image](https://github.com/ToneGY/Smile-App/assets/70756004/13cec4d9-4dbc-463c-a759-64e25c664a50)
 
-<img src="C:\Users\98157\AppData\Local\Temp\WeChat Files\a1dab8f8d5a2a028224ecd36906c1bc.jpg" alt="a1dab8f8d5a2a028224ecd36906c1bc" style="zoom:16%;" />
+![image](https://github.com/ToneGY/Smile-App/assets/70756004/ce3496e8-96e4-494c-a0a1-4c558a757a14)
+
 
 #### 到期提醒
 
 我们通过使用前台进程，较大限度地保证APP不被杀死。在这个基础上，我们规定截止日期之前30分钟进行事项提醒。
 
-<img src="C:\Users\98157\AppData\Local\Temp\WeChat Files\19cf7b363adcb7c841e8aae8c5f3765.jpg" alt="19cf7b363adcb7c841e8aae8c5f3765" style="zoom:16%;" />
+![image](https://github.com/ToneGY/Smile-App/assets/70756004/1eb03015-3268-42db-8a78-f33380d9705d)
+
 
 #### 统计可视化
 
 在该基础之上，APP实现了对待办数据的可视化统计。统计采用图标的形式进行展示，纵坐标对应到具体某天，其中当天显示为“今天”。图中显示四条折线，反映出每个重要等级的事项数量及其变化趋势。点击某一天的对应区域，会显示当天存在的具体待办事项，可通过点击此事项进行查看和编辑。
 
-<img src="C:\Users\98157\AppData\Local\Temp\WeChat Files\12f820db98429b52f44b4609a5ab6cc.jpg" alt="12f820db98429b52f44b4609a5ab6cc" style="zoom:16%;" />
+![image](https://github.com/ToneGY/Smile-App/assets/70756004/53cbdc52-9f28-4a5e-8ff4-98af35d78c58)
+
 
 ### 2、小组事项
 
@@ -90,9 +89,10 @@ APP使用了`PopupWindow`、`Handler`、`Fragment`、`Service`、` BroadcastRece
 
 我们通过与远端的服务器连接，实现小组合作的待办形式。该情况需要先通过第四级页面进行注册后登录使用。若未登录则提示登录。
 
-<img src="C:\Users\98157\AppData\Local\Temp\WeChat Files\f6d758714949357e82d2f25162439e9.jpg" alt="f6d758714949357e82d2f25162439e9" style="zoom:16%;" />
+![image](https://github.com/ToneGY/Smile-App/assets/70756004/423e9a57-fde1-48b0-9779-73e989dbdf37)
 
-<img src="C:\Users\98157\AppData\Local\Temp\WeChat Files\0d6664477e8ace63f462a1795c2e235.jpg" alt="0d6664477e8ace63f462a1795c2e235" style="zoom:16%;" />
+  ![image](https://github.com/ToneGY/Smile-App/assets/70756004/6cab6230-5074-45b7-93bb-4ca2a145e68f)
+
 
 #### 小组协作
 
@@ -100,9 +100,11 @@ APP使用了`PopupWindow`、`Handler`、`Fragment`、`Service`、` BroadcastRece
 
 其中组员信息采用下拉列表的形式实现，右上角箭头具有旋转动画效果。在具体事项方面，显示效果与个人事项相同。小组切换通过点击右上角按钮弹出选择框后进行操作。
 
-<img src="C:\Users\98157\AppData\Local\Temp\WeChat Files\9f7d7c563299dda2ee60dca90ad90eb.jpg" alt="9f7d7c563299dda2ee60dca90ad90eb" style="zoom:16%;" />
+![image](https://github.com/ToneGY/Smile-App/assets/70756004/eacd0515-8e9c-4c8b-8c7d-f18ff24db1e4)
 
-<img src="C:\Users\98157\AppData\Local\Temp\WeChat Files\82082869ddd40f709bd5596ac963e31.jpg" alt="82082869ddd40f709bd5596ac963e31" style="zoom:16%;" />
+
+![image](https://github.com/ToneGY/Smile-App/assets/70756004/f1535936-e965-4b8b-b86a-6e92c66979df)
+
 
 ### 3. Elearning
 
@@ -112,21 +114,25 @@ APP实现了对`elearning`文件及作业信息的获取，该页面采用`TabLa
 
 考虑额elarning账号的安全性，我们选择对其账号进行本地存储，点击右上角头像，会弹出子工具栏，其支持重新登录、退出登录及切换头像的功能。
 
-<img src="C:\Users\98157\AppData\Local\Temp\WeChat Files\e4b198078a40211a0bc34b7fcd40fd9.jpg" alt="e4b198078a40211a0bc34b7fcd40fd9" style="zoom:16%;" />
+![image](https://github.com/ToneGY/Smile-App/assets/70756004/21159684-9b31-4419-b4fc-e75f38e76b9b)
 
-<img src="C:\Users\98157\AppData\Local\Temp\WeChat Files\87de15bf72fafe6c148609ad94419fd.jpg" alt="87de15bf72fafe6c148609ad94419fd" style="zoom:16%;" />
 
-<img src="C:\Users\98157\AppData\Local\Temp\WeChat Files\52df761c5423429d972fb048dd71ff5.jpg" alt="52df761c5423429d972fb048dd71ff5" style="zoom:16%;" />
+![image](https://github.com/ToneGY/Smile-App/assets/70756004/71e9b507-d03d-4969-aa64-210dfc1b15ff)
+
+
+![image](https://github.com/ToneGY/Smile-App/assets/70756004/506e80cd-f2f9-4453-a616-9d8ad50f080c)
+
 
 #### 课程
 
 在课程层面，我们使用`GridView`对课程所有课程进行展示。点击进入课程后可查看该课程所有文件信息，包括文本文件及目录文件。通过点击具体文件，可对其进行下载，下载过程中会展示下载进度。APP对常用的文件后缀进行了图标映射，确保了文件类型清晰可见。
 
-<img src="C:\Users\98157\AppData\Local\Temp\WeChat Files\498c334adfa002e46ee7fc128b082eb.jpg" alt="498c334adfa002e46ee7fc128b082eb" style="zoom:16%;" />
+![image](https://github.com/ToneGY/Smile-App/assets/70756004/20b03628-0bb9-4ff1-8f50-07e1a60d53f2)
 
-<img src="C:\Users\98157\AppData\Local\Temp\WeChat Files\beb9cda2e6b6135b86b80db87b99e68.jpg" alt="beb9cda2e6b6135b86b80db87b99e68" style="zoom:16%;" />
+![image](https://github.com/ToneGY/Smile-App/assets/70756004/0211ad08-0072-4295-ada8-25df48ee91e2)
 
-<img src="C:\Users\98157\AppData\Local\Temp\WeChat Files\13c1f0966e84e4440ea1197cab34256.jpg" alt="13c1f0966e84e4440ea1197cab34256" style="zoom:16%;" />
+![image](https://github.com/ToneGY/Smile-App/assets/70756004/fd69d647-4601-416e-9845-62fbb402627f)
+
 
 #### 作业
 
@@ -134,31 +140,34 @@ APP实现了对`elearning`文件及作业信息的获取，该页面采用`TabLa
 
 另外一个比较主要的功能是实现了手动的刷新，点击最近更新时间或者下拉列表会进行文件信息的重新获取。
 
-<img src="C:\Users\98157\AppData\Local\Temp\WeChat Files\ac1070295f64437ad3c77ce32e41fbd.jpg" alt="ac1070295f64437ad3c77ce32e41fbd" style="zoom:16%;" />
+![image](https://github.com/ToneGY/Smile-App/assets/70756004/1bbb08d5-f26a-49ae-ba6e-2ba512634bcf)
 
-<img src="C:\Users\98157\AppData\Local\Temp\WeChat Files\526c385048db0d5b252835e08b4d649.jpg" alt="526c385048db0d5b252835e08b4d649" style="zoom:16%;" />
+![image](https://github.com/ToneGY/Smile-App/assets/70756004/8ae851a2-05fe-4372-b418-b366cdae24df)
 
-<img src="C:\Users\98157\AppData\Roaming\Typora\typora-user-images\image-20230105195457827.png" alt="image-20230105195457827" style="zoom:16%;" />
+![image](https://github.com/ToneGY/Smile-App/assets/70756004/1f9b9321-dddb-4a41-bd62-dec1e14c72be)
+
 
 #### 文件
 
 该部分主要存储并展示下载后的文件，长按文件项会弹出菜单栏，可执行删除、多选、转发、移动、重命名等功能。同时，我们内置了多个插件，支持对pdf、markdown等多种格式文件的直接查看，对于不具备APP内部查看的文件类型，使用`FileProvider`选择其他APP进行打开。
 
-<img src="C:\Users\98157\AppData\Local\Temp\WeChat Files\a00c19635ddc4f7f84d768343a20fbe.jpg" alt="a00c19635ddc4f7f84d768343a20fbe" style="zoom:16%;" />
+![image](https://github.com/ToneGY/Smile-App/assets/70756004/1fd6a848-bb02-4044-9a37-7cab175f3fba)
+
+![image](https://github.com/ToneGY/Smile-App/assets/70756004/ed078685-8801-4f5d-a7bd-c982bc9ef2a3)
+
+![image](https://github.com/ToneGY/Smile-App/assets/70756004/5b704327-0597-4e1d-a219-dfcfb327c84f)
 
 
+![image](https://github.com/ToneGY/Smile-App/assets/70756004/69538d86-a97c-4392-8edd-0f95d202c470)
 
-<img src="C:\Users\98157\AppData\Local\Temp\WeChat Files\d9c03bea4d5db14e4e8a46e50e47080.jpg" alt="d9c03bea4d5db14e4e8a46e50e47080" style="zoom:16%;" />
 
-<img src="C:\Users\98157\AppData\Local\Temp\WeChat Files\6dfd21a80a7a66d0c338aed7060e1d7.jpg" alt="6dfd21a80a7a66d0c338aed7060e1d7" style="zoom:16%;" />
+![image](https://github.com/ToneGY/Smile-App/assets/70756004/5b4790de-6d97-4e2d-8fbc-058d8208c32e)
 
-<img src="C:\Users\98157\AppData\Local\Temp\WeChat Files\319c48abbc5512f653b700ffee2de77.jpg" alt="319c48abbc5512f653b700ffee2de77" style="zoom:16%;" />
 
-<img src="C:\Users\98157\AppData\Local\Temp\WeChat Files\2a9d493db030db310d9a7d1155ab787.jpg" alt="2a9d493db030db310d9a7d1155ab787" style="zoom:16%;" />
+![image](https://github.com/ToneGY/Smile-App/assets/70756004/0aa6cc30-1e52-4513-87c4-fbb1731da4ec)
 
-<img src="C:\Users\98157\AppData\Local\Temp\WeChat Files\105fed46b0b7ee74efdbcea11040438.jpg" alt="105fed46b0b7ee74efdbcea11040438" style="zoom:16%;" />
+![image](https://github.com/ToneGY/Smile-App/assets/70756004/1a0a047f-1334-4ed3-9eef-aa9ad4a3b027)
 
-<img src="C:\Users\98157\AppData\Local\Temp\WeChat Files\2b5b05d25cec56749d3091e6664b9d1.jpg" alt="2b5b05d25cec56749d3091e6664b9d1" style="zoom:16%;" />
 
 ### 4. 个人信息
 
@@ -166,29 +175,32 @@ APP实现了对`elearning`文件及作业信息的获取，该页面采用`TabLa
 
 若用户未登录，则显示登录页面。登录后会获取远程用户信息、小组信息、待办信息等。
 
-<img src="C:\Users\98157\AppData\Local\Temp\WeChat Files\8f161272887108f50afd35ddac12e2f.jpg" alt="8f161272887108f50afd35ddac12e2f" style="zoom:16%;" />
+![image](https://github.com/ToneGY/Smile-App/assets/70756004/0ab4880e-305d-49e9-a031-148b375d596d)
 
-<img src="C:\Users\98157\AppData\Local\Temp\WeChat Files\0d6664477e8ace63f462a1795c2e235.jpg" alt="0d6664477e8ace63f462a1795c2e235" style="zoom:16%;" />
 
-<img src="C:\Users\98157\AppData\Local\Temp\WeChat Files\f78ce919b2371181eccb90874c29466.jpg" alt="f78ce919b2371181eccb90874c29466" style="zoom:16%;" />
+![image](https://github.com/ToneGY/Smile-App/assets/70756004/4c1ac458-6a98-42e2-9758-838451feb4a0)
 
-<img src="C:\Users\98157\AppData\Local\Temp\WeChat Files\a4cd90095780d6b3932195e4f830a2c.jpg" alt="a4cd90095780d6b3932195e4f830a2c" style="zoom:16%;" />
+
+![image](https://github.com/ToneGY/Smile-App/assets/70756004/287ecf68-1330-4bb6-b88f-7adde16f3002)
+
+![image](https://github.com/ToneGY/Smile-App/assets/70756004/3be2d268-a745-439f-8c0a-0d62dc1e445f)
+
 
 
 
 ## 四、代码结构
 
-![image-20230105214053939](C:\Users\98157\AppData\Roaming\Typora\typora-user-images\image-20230105214053939.png)
+![image](https://github.com/ToneGY/Smile-App/assets/70756004/7b025d4d-eea7-4a47-a896-ed6725e2ad0e)
 
-<img src="C:\Users\98157\AppData\Roaming\Typora\typora-user-images\image-20230105214150289.png" alt="image-20230105214150289" style="zoom:80%;" />
+![image](https://github.com/ToneGY/Smile-App/assets/70756004/2d9d4b91-bfdc-4559-99b0-50a1f78c60ae)
 
-<img src="C:\Users\98157\AppData\Roaming\Typora\typora-user-images\image-20230105214206586.png" alt="image-20230105214206586" style="zoom:80%;" />
+![image](https://github.com/ToneGY/Smile-App/assets/70756004/311b4df5-33fa-471e-9e77-d843ac61d9ac)
 
-<img src="C:\Users\98157\AppData\Roaming\Typora\typora-user-images\image-20230105214220137.png" alt="image-20230105214220137" style="zoom:80%;" />
+![image](https://github.com/ToneGY/Smile-App/assets/70756004/1ee64a2b-2819-4183-be7e-d4a1eed476d2)
 
-<img src="C:\Users\98157\AppData\Roaming\Typora\typora-user-images\image-20230105214233235.png" alt="image-20230105214233235" style="zoom:80%;" />
+![image](https://github.com/ToneGY/Smile-App/assets/70756004/4e6d1bb5-3a32-4d40-bbd9-e27684adeaae)
+![image](https://github.com/ToneGY/Smile-App/assets/70756004/4f52b4fe-ee5f-4889-b6c7-ab6c1fc6a019)
 
-<img src="C:\Users\98157\AppData\Roaming\Typora\typora-user-images\image-20230105214247574.png" alt="image-20230105214247574" style="zoom: 80%;" />
 
 ## 五、总结与不足
 
